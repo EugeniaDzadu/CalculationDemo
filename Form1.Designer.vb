@@ -30,7 +30,7 @@ Partial Class Form1
         btnAdd = New Button()
         btnClear = New Button()
         btnExit = New Button()
-        btnCalculate = New Button()
+        btnSubstract = New Button()
         btnDivide = New Button()
         btnMultiply = New Button()
         SuspendLayout()
@@ -105,14 +105,14 @@ Partial Class Form1
         btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = True
         ' 
-        ' btnCalculate
+        ' btnSubstract
         ' 
-        btnCalculate.Location = New Point(238, 372)
-        btnCalculate.Name = "btnCalculate"
-        btnCalculate.Size = New Size(94, 29)
-        btnCalculate.TabIndex = 8
-        btnCalculate.Text = "Substract"
-        btnCalculate.UseVisualStyleBackColor = True
+        btnSubstract.Location = New Point(238, 372)
+        btnSubstract.Name = "btnSubstract"
+        btnSubstract.Size = New Size(94, 29)
+        btnSubstract.TabIndex = 8
+        btnSubstract.Text = "Substract"
+        btnSubstract.UseVisualStyleBackColor = True
         ' 
         ' btnDivide
         ' 
@@ -139,7 +139,7 @@ Partial Class Form1
         ClientSize = New Size(800, 508)
         Controls.Add(btnMultiply)
         Controls.Add(btnDivide)
-        Controls.Add(btnCalculate)
+        Controls.Add(btnSubstract)
         Controls.Add(btnExit)
         Controls.Add(btnClear)
         Controls.Add(btnAdd)
@@ -163,7 +163,7 @@ Partial Class Form1
     Friend WithEvents btnAdd As Button
     Friend WithEvents btnClear As Button
     Friend WithEvents btnExit As Button
-    Friend WithEvents btnCalculate As Button
+    Friend WithEvents btnSubstract As Button
     Friend WithEvents btnDivide As Button
     Friend WithEvents btnMultiply As Button
 
